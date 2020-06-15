@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   --main-red-color: #C73E1D;
   --main-red-color-dark:#6B0F1A;
   --main-blue-color: #37517e;
+  --main-red-grey-color: #faf4f3;
 
 }
 
@@ -550,7 +551,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f5fa;
+  background-color: var(--main-red-grey-color);
+  /* background-color: #f3f5fa; */
 }
 
 .section-title {
@@ -695,14 +697,14 @@ section {
 }
 
 .why-us .content h4 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   margin-top: 5px;
 }
 
 .why-us .content p {
-  font-size: 15px;
-  color: #848484;
+  font-size: 19 px;
+  color: #797979;
 }
 
 .why-us .img {
@@ -742,7 +744,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: var(--main-red-color-light);
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -769,7 +771,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: var(--main-red-color-light);
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
