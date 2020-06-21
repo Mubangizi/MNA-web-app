@@ -1364,6 +1364,16 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .map-div {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  background: #fff;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
 .contact .info {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
