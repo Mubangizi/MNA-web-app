@@ -106,13 +106,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #47b2e4;
+  background: var(--main-red-color-light);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #209dd8;
+  background: var(--main-red-color);
   color: #fff;
 }
 
@@ -1091,7 +1091,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: var(--main-red-color);
 }
 
 .team .member span {
@@ -1108,7 +1108,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #cbd6e9;
+  background: var(--main-red-color-light);
   bottom: 0;
   left: 0;
 }
@@ -1137,13 +1137,13 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: var(--main-red-color-light);
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: var(--main-red-color-light);
 }
 
 .team .member .social a:hover i {
@@ -1364,6 +1364,16 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .map-div {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  background: #fff;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
 .contact .info {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
@@ -1682,7 +1692,8 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: var(--main-red-color);
+  /* background: #37517e; */
 }
 
 #footer .footer-newsletter {
@@ -1699,7 +1710,8 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: var(--main-color-light);
+  /* color: #37517e; */
 }
 
 #footer .footer-newsletter form {
@@ -1727,7 +1739,8 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background:var(--main-red-color-light);
+  /* background: #47b2e4; */
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1735,7 +1748,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #209dd8;
+  background: var(--main-red-color);
 }
 
 #footer .footer-top {
@@ -1754,7 +1767,8 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  /* color: #37517e; */
+  color: var(--main-red-color-light);
 }
 
 #footer .footer-top .footer-contact p {
@@ -1768,7 +1782,8 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  /* color: #37517e; */
+  color: var(--main-red-color-light);
   position: relative;
   padding-bottom: 12px;
 }
@@ -1785,7 +1800,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: var(--main-red-color-light);
+  /* color: #47b2e4; */
   font-size: 18px;
   line-height: 1;
 }
@@ -1809,13 +1825,15 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: var(--main-red-color-light);
+  /* color: #47b2e4; */
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: var(--main-red-color-light);
+  /* background: #47b2e4; */
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1828,7 +1846,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: var(--main-red-color);
+  /* background: #209dd8; */
   color: #fff;
   text-decoration: none;
 }
