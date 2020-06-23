@@ -872,9 +872,10 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  width: 100%;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 35px 30px;
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.3s;
   background: #fff;
   margin-bottom: 20px;
 }
@@ -919,9 +920,24 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: #f3f5fa;
   background-size: cover;
-  padding: 120px 0;
+  padding: 50px 0;
+}
+.cta .container .row .card{
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cta .container .row .card:hover {
+  transform: translateY(-10px);
+}
+
+.cta .container .row .card h5 {
+  color: white!important;
 }
 
 .cta h3 {
