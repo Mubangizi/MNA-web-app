@@ -920,10 +920,12 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #f3f5fa;
+  /* background: #f3f5fa; */
+  background: #eeeeee;
   background-size: cover;
   padding: 50px 0;
 }
+
 .cta .container .row .card{
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   transition: all ease-in-out 0.3s;
@@ -931,6 +933,7 @@ section {
   width: 100%;
   padding: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .cta .container .row .card:hover {
   transform: translateY(-10px);
@@ -938,12 +941,15 @@ section {
 
 .cta .container .row .card h5 {
   color: white!important;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+.cta h2 {
+  color: var(--main-red-color);
+}
+.cta h2::after {
+  background: var(--main-red-color-light);
 }
 
 .cta p {
@@ -1083,7 +1089,7 @@ section {
   padding: 30px;
   border-radius: 5px;
   background: #fff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .team .member .pic {
@@ -1093,7 +1099,7 @@ section {
 }
 
 .team .member .pic img {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3 s;
 }
 
 .team .member:hover {
