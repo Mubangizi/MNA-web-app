@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  /* background: #37517e; */
+  background: var(--main-red-color-light);
 }
 
 #preloader:before {
@@ -59,7 +60,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid var(--main-red-color);
+  /* border: 6px solid #37517e; */
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -689,6 +691,11 @@ section {
 .why-us .content {
   padding: 60px 100px 0 100px;
 }
+.why-us {
+  /* background-color: var(--main-red-grey-color); */
+  background-color: #f3f5fa!important;
+}
+
 
 .why-us .content h3 {
   font-weight: 400;
@@ -872,9 +879,10 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  width: 100%;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 35px 30px;
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.3s;
   background: #fff;
   margin-bottom: 20px;
 }
@@ -919,15 +927,36 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  /* background: #f3f5fa; */
+  background: #eeeeee;
   background-size: cover;
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+.cta .container .row .card{
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.cta .container .row .card:hover {
+  transform: translateY(-10px);
+}
+
+.cta .container .row .card h5 {
+  color: white!important;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.cta h2 {
+  color: var(--main-red-color);
+}
+.cta h2::after {
+  background: var(--main-red-color-light);
 }
 
 .cta p {
@@ -1067,7 +1096,7 @@ section {
   padding: 30px;
   border-radius: 5px;
   background: #fff;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .team .member .pic {
@@ -1077,7 +1106,7 @@ section {
 }
 
 .team .member .pic img {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3 s;
 }
 
 .team .member:hover {
