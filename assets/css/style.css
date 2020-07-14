@@ -946,7 +946,7 @@ section {
   transform: translateY(-10px);
 }
 
-.cta .container .row .card h5 {
+.cta .container .row .card h6 {
   color: white!important;
   font-size: 18px;
   font-weight: normal;
