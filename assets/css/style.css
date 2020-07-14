@@ -170,6 +170,9 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   padding: 10px 0 10px 28px;
 }
+a{
+  transition: 0.3s;
+}
 
 .nav-menu a {
   display: block;
@@ -950,6 +953,7 @@ section {
   color: white!important;
   font-size: 18px;
   font-weight: normal;
+  letter-spacing: 3px;
 }
 
 .cta h2 {
